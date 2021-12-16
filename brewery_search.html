@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="brewery_search.css">
+    <script defer src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script defer src="brewery_search.js"></script>
+
+
+    <title>Brewery Search</title>
+</head>
+
+<body>
+
+    <form>
+        <label id="label"> Search for a Brewery:<br>
+            <input id="search-field" type="text" placeholder="Brewery Name" /><br>
+            <input id="button" type="submit" value="Beer me!"> </label>
+    </form>
+    <div class="brewery-backgrounds" id="brewery">
+        <h3 id="name"></h3>
+        <p id="brewery_type"></p>
+        <p id="street"></p>
+        <p id="website_url"></p>
+        <p id="phone"></p>
+    </div>
+</body>
+
+</html>

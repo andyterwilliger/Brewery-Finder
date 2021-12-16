@@ -13,3 +13,7 @@ document.getElementById("revolution").onclick= function(){
 document.getElementById("bodem").onclick= function(){
     location.href= "https://www.halfacrebeer.com/bodem"
 }
+
+document.getElementsByClassName("beer").onmouseover= function(){
+    
+}
