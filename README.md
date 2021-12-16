@@ -4,13 +4,13 @@ This is an app where users will be able to enter a city in the search field and 
 
 ## Technologies Used
 
--HTML5
--CSS3
--Javascript
--jQuery
--Google Fonts
--imgur 
--Open Brewery DB API
+HTML5
+CSS3
+Javascript
+jQuery
+Google Fonts
+imgur 
+Open Brewery DB API
 
 
 
