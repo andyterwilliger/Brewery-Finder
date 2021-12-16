@@ -1,10 +1,15 @@
+html{
+    height: 100%;
+    width: 100%;
+}
 body{
     background-image: url('https://ballastpoint.com/wp-content/uploads/2018/04/sculpin-grapefruit-12oz-can.png"'), url('https://revbrew.imgix.net/beer/Cans/Suncrusher_Web-copy.png?fit=clip&h=392&q=80&w=200&s=2804c2f6805ee4e69640733f016a6c4d'), url('https://images.squarespace-cdn.com/content/v1/54f74c5ee4b05bbdbef997f4/1556034176474-RLRRMLVD2JWY4M61YWN6/bodem-single.png?format=300w');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left, center, right;
     background-color:black;
-    background-size: 13%
+    background-size: 13%;
+    height: 100%;
 }
  nav{
 
@@ -61,6 +66,26 @@ h1{
     color:goldenrod;
     margin-top: 0x;
 }
+div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    transform: translateY(50px);
+}
+
+.beer{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    background-color: goldenrod;
+    font-family: "Fuzzy Bubbles", cursive;
+
+}
+
 
 @media screen and (max-width: 480px){
     body{
@@ -86,4 +111,6 @@ h1{
         font-size: 30px;
     }
 
-}
+    .beer{
+        width:20%;
+    }
