@@ -1,3 +1,4 @@
+
 //variables
 
 const URL = 'https://api.openbrewerydb.org/breweries?by_city='
@@ -14,11 +15,35 @@ const $input = $('input[type = "text"]')
 
 $form.on('submit', handleGetData);
 
-document.getElementById("b-o-m").onclick= function(){
+document.getElementById("b-o-m").onclick = function () {
 
-    location.href= "bom.html";
+    location.href = "bom.html";
 };
 
+document.querySelectorAll('button').forEach(function (e) {
+    e.addEventListener('mouseover', function () {
+        this.style.backgroundColor = "black";
+        this.style.color = "goldenrod";
+    })
+
+});
+
+document.querySelectorAll('button').forEach(function (e) {
+    e.addEventListener('mouseout', function () {
+        this.style.backgroundColor = "goldenrod";
+        this.style.color = "black";
+    })
+});
+
+document.getElementById("button").addEventListener("mouseover", function(){
+    this.style.backgroundColor= "black";
+    this.style.color= "goldenrod"
+});
+
+document.getElementById("button").addEventListener('mouseout', function(){
+    this.style.backgroundColor="goldenrod";
+    this.style.color="black";
+});
 
 
 //functions
@@ -39,14 +64,15 @@ function handleGetData(evt) {
 
 
 
+
 function render(breweryData) {
 
-    let i=Math.floor(Math.random()* breweryData.length);
-    let j=Math.floor(Math.random() * breweryData.length);
-    let k=Math.floor(Math.random() * breweryData.length);
-    let l=Math.floor(Math.random() * breweryData.length);
-    let m=Math.floor(Math.random() * breweryData.length);
-    let n=Math.floor(Math.random() * breweryData.length);
+    let i = Math.floor(Math.random() * breweryData.length);
+    let j = Math.floor(Math.random() * breweryData.length);
+    let k = Math.floor(Math.random() * breweryData.length);
+    let l = Math.floor(Math.random() * breweryData.length);
+    let m = Math.floor(Math.random() * breweryData.length);
+    let n = Math.floor(Math.random() * breweryData.length);
     //let o=Math.floor(Math.random() * breweryData.length);
     //let p=Math.floor(Math.random() * breweryData.length);
     //let q=Math.floor(Math.random() * breweryData.length);
