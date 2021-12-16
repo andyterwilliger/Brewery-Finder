@@ -1,4 +1,4 @@
-
+//variables
 
 const URL = 'https://api.openbrewerydb.org/breweries?by_city='
 const $id = $('id');
@@ -10,6 +10,7 @@ const $phone = $('phone');
 const $form = $('form');
 const $input = $('input[type = "text"]')
 
+//event listeners
 
 $form.on('submit', handleGetData);
 
@@ -18,6 +19,9 @@ document.getElementById("b-o-m").onclick= function(){
     location.href= "bom.html";
 };
 
+
+
+//functions
 
 function handleGetData(evt) {
     evt.preventDefault();
@@ -31,6 +35,8 @@ function handleGetData(evt) {
         console.log('something went awry')
     })
 };
+
+
 
 
 function render(breweryData) {
