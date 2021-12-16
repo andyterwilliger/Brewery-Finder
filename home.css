@@ -233,6 +233,10 @@ main{
             width: 70%;
 
         }
+
+        #search-field{
+            width: 75%;
+        }
         
         main{
             height: 100%;
