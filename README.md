@@ -15,9 +15,9 @@ This is an app where users will be able to enter a city in the search field and 
 
 
 ## Screenshots 
-https://imgur.com/oFMMXNv
+![image](https://user-images.githubusercontent.com/76022623/146447236-fe7649cf-4959-4f8d-9200-85725397df08.png)
 
-https://imgur.com/E54xuZd
+
 
 
 
